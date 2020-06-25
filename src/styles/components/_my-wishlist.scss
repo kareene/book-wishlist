@@ -1,0 +1,30 @@
+.my-wishlist {
+    margin-left: 3rem;
+    ul {
+        flex-grow: 1;
+        width: 18rem;
+        li {
+            background-color: $clr9;
+            padding: 0.6rem 0.8rem;
+            margin-bottom: 0.8rem;
+            border-left: 0.8rem solid $clr5;
+            p {
+                max-width: 24ch;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            button {
+                color: $clr9;
+                background-color: $clr4;
+                width: 1.6rem;
+                height: 1.6rem;
+                border-radius: 0.25rem;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+    h3 {
+        text-align: right;
+    }
+}

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+    color: $clr2;
+    line-height: 1.8;
+}
+
+body {
+    background-color: $clr8;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: Roboto-Bold, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    line-height: 1.4;
+}
+
+h3 {
+    color: $clr1;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    border: 1px solid $clr7;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.clear-button {
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
